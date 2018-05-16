@@ -1,0 +1,30 @@
+/* Posts */
+#NatPhoto {
+    background-image: url('../assets/images/732.JPG'));
+    background-size: cover;
+}
+
+#Zen-Juice {
+    background-image: url(image_path('ZenJuiceTitle.jpg'));
+    background-size: cover;
+}
+
+#Almost-Winter {
+    background-image: url(image_path('Almost-Winter.jpg'));
+    background-size: cover;
+}
+
+#Quadtree {
+    background-image: url(image_path('particleBlast.JPG'));
+    background-size: cover;
+}
+
+#Last-Day-Germany {
+    background-image: url(image_path('Frankfurt.jpg'));
+    background-size: cover;
+}
+
+#Autoencoders {
+    background-image: url(image_path('autoencoderexample.png'));
+    background-size: cover;
+}

@@ -4,6 +4,8 @@
 		<title>Benjamin Johnson</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/featured.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 	</head>
 	<body>
 		<nav>
@@ -14,14 +16,63 @@
         		<li><a href="/blog">Blog</a></li>
     		</ul>
 		</nav>
+
+    <div class="featured">
+        <h1 id="home-header">Recent Projects</h1>
+        <div class="container">
+			<div class="row">
+            	<div class="col-md-6">
+                	<a href="http://natphoto.me">
+                    <div class="thumbnail" id="NatPhoto" background-image="{{ site.url }}/assets/732.JPG">
+                    	<h3 class="text-center">Project: www.natphoto.me</h3>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                	<a href="https://1drv.ms/u/s!AjE2TmGhu4UYgbgrS4P_tHbYU4Qrwg">
+                    <div class="thumbnail" id="Zen-Juice">
+                    	<h3 class="text-center">Project: Zen Juice for Oculus</h3>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+			<div class="row">
+            	<div class="col-md-6">
+                	<a href="https://youtu.be/8ZvQrbsdN1I">
+                    <div class="thumbnail" id="Last-Day-Germany">
+                    	<h3 class="text-center">Video: Last Day in Germany</h3>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                	<a href="https://drive.google.com/file/d/1yf7WOfwS9QOZuTj9Jmnpt1OQCch9nFic/view?usp=sharing">
+                    <div class="thumbnail" id="Autoencoders">
+                    	<h3 class="text-center">Article: A Review on Auto-encoders for Representational Learning</h3>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi!</h1>
-				<p>My name is Ben :)</p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		
-		</footer>
+			<div class="row">
+            	<div class="col-md-6">
+                	<a href="https://youtu.be/UMXZTNPIGCc">
+                    <div class="thumbnail" id="Almost-Winter">
+                    	<h3 class="text-center">Video: Almost Winter</h3>
+                    </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                	<a href="http://www.learnpygame.com/2015/03/implementing-quadtree-collision-system.html">
+                    <div class="thumbnail" id="Quadtree">
+                    	<h3 class="text-center">Article: Quadtree Collision in Pygame</h3>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+      </div>
 	</body>
 </html>
